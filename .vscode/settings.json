@@ -1,10 +1,16 @@
 {
     "github.copilot.chat.commitMessageGeneration.instructions": [
-
         {
             "text": "변경된 파일이름 형식: , 버전이 몇인지 명시해주고 변경된 내용을 간략하게 적어주세요."
         }
+    ],
+    
+    "github.copilot.chat.testGeneration.instructions": [
+        {
+            "file": "테스트 파일이름 형식, 테스트 할 내용을 간략하게 적어주세요"
+        },
+        {
+            "text": "파일이름은 test_파일이름.py 입니다"
+        }
     ]
-
-
 }
