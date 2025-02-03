@@ -7,9 +7,15 @@ clock = pygame.time.Clock()
 game_started = False
 
 def start_game():
+    """
+    게임을 시작합니다.
+    """
     # ...existing code...
 
 def game_loop():
+    """
+    게임 루프를 실행합니다.
+    """
     global game_started
     while True:
         if not game_started:
